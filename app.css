@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&family=Red+Hat+Mono&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #cfbaf0;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.idk {
+    padding: 1rem 2rem;
+    background-color:aliceblue;
+    border-radius: 50px;
+    width: 100%;
+}
+
+form {
+    width: 55%;
+}
+
+button {
+    padding: 0.5rem;
+    width: 35%;
+    background-color: #191919;
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #2a9d8f;
+    transition: background-color .1s ease;
+}
+
+.input{
+    padding: 0.5rem;
+    background-color:aliceblue;
+    border: none;
+    border-radius: 20px;
+    width: 57%;
+    outline: none;
+    flex: 1;
+}
+
+
+h1 {
+    padding: 2em;
+}
+
+p, ul {
+    padding: 2rem;
+    font-size: larger;
+}
+
+
+
